@@ -33,10 +33,12 @@
      max-width: 40px;
      max-height: 40px;
      font-size: 1.5em;
-     border: 2px solid black;
-     border-radius: 100%;
+     border: 2px solid lightgray;
+     border-bottom-right-radius: 16px;
+     border-top-left-radius: 8px;
      height: auto;
-     background-color: white;
+     background-color: orangered;
+     color: white;
      display: flex;
      justify-content: center;
      align-items: center;
