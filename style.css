@@ -2,12 +2,9 @@
      background: #a5a5a5;
    }
    
-   .col-2{
-        padding:0;
-   }
-
    .card{
-        margin: auto;
+     margin: auto;
+     width: 272px;
      height: 24rem;
      background-color: lightgray;
      padding: 0;
@@ -16,50 +13,51 @@
      -moz-box-shadow: 2px 2px 30px -4px rgba(0,0,0,0.75);
      box-shadow: 2px 2px 30px -4px rgba(0,0,0,0.75);
    }
+
+   .col-2{
+     padding:0;
+}
    
    .square {
      background-image: url("./assets/scrnsht.jpg");
      background-position: top;
      background-repeat: no-repeat;
      background-size: cover;
-     border: 2px solid lightgray;
      width: 100%;
      height: 8rem;
      border-top-left-radius: 20px;
      border-top-right-radius: 20px;
    }
 
-   .title{
-        font-size: 14px;
-        text-align: center;
-        font-weight: bold;
-        color:darkslategray;
-        border: 4px solid transparent;
-   }
-   .title :last-child{
-        font-size: smaller;
-        font-weight: lighter;
-        font-style: italic;
-   }
+.card-number{
+     max-width: 40px;
+     max-height: 40px;
+     font-size: 1.5em;
+     border: 2px solid black;
+     border-radius: 100%;
+     height: auto;
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: bold;
+}
+.title{
+     font-size: 14px;
+     text-align: center;
+     font-weight: bold;
+     color:darkslategray;
+}
+.title :last-child{
+     font-size: smaller;
+     font-weight: lighter;
+     font-style: italic;
+}
 
-   .row{
-        margin: 0;
-        padding: 0;
-   }
-
-
-   .card-number{
-        font-size: 1.5em;
-        border: 2px solid black;
-        border-radius: 100%;
-        width: 100%;
-        height: auto;
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: bold;
-   }
+.row{
+     margin: 0;
+     padding: 0;
+}
 
    .stats-area{
         background-color: darkslategray;
